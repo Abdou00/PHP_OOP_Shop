@@ -1,8 +1,11 @@
 <?php
-  header("Cache-Control: no-cache, must-revalidate");
-  header("Pragma: no-cache"); 
-  header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); 
-  header("Cache-Control: max-age=2592000");
+    include '../lib/Session.php';
+    Session::checkSession();
+
+    header("Cache-Control: no-cache, must-revalidate");
+    header("Pragma: no-cache");
+    header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+    header("Cache-Control: max-age=2592000");
 ?>
 <!DOCTYPE html>
 <html>
@@ -50,10 +53,18 @@
                 <div class="floatright">
                     <div class="floatleft">
                         <img src="img/img-profile.jpg" alt="Profile Pic" /></div>
+                    <?php
+                        // Vérifie la présence du paramètre action dans l'url et ci celui équivaut à logout
+                        // Si vrai lance la fonction de destruction de la session
+                        if (isset($_GET['action']) && $_GET['action'] == "logout")
+                        {
+                            Session::destroy();
+                        }
+                    ?>
                     <div class="floatleft marginleft10">
                         <ul class="inline-ul floatleft">
-                            <li>Hello Admin</li>
-                            <li><a href="#">Logout</a></li>
+                            <li>Hello <?php echo Session::get("adminName"); ?></li>
+                            <li><a href="?action=logout">Logout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,4 +85,3 @@
         </div>
         <div class="clear">
         </div>
-    
