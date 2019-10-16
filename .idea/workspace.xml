@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8eced1-a5d8-4b83-9812-551d36f40dc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/sidebar.php" afterDir="false" />
-    </list>
+    <list default="true" id="8f8eced1-a5d8-4b83-9812-551d36f40dc5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +103,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571224070611</updated>
-      <workItem from="1571224072031" duration="10713000" />
+      <workItem from="1571224072031" duration="10957000" />
     </task>
+    <task id="LOCAL-00001" summary="Add admin logout &amp; debug admin sidebar">
+      <created>1571235511687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571235511687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add admin logout &amp; debug admin sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add admin logout &amp; debug admin sidebar" />
   </component>
 </project>
