@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8eced1-a5d8-4b83-9812-551d36f40dc5" name="Default Changelist" comment="" />
+    <list default="true" id="8f8eced1-a5d8-4b83-9812-551d36f40dc5" name="Default Changelist" comment="Add Category CRUD">
+      <change afterPath="$PROJECT_DIR$/admin/catedit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/04df71fd-9782-495a-bfd5-adf659a56c9f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/04df71fd-9782-495a-bfd5-adf659a56c9f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/catadd.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/catadd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/catlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/catlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/layout.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +73,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Dev/Symfony/160a4d50-8f7b-41ec-9b3f-0d46b802896f" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571224070611</updated>
-      <workItem from="1571224072031" duration="10957000" />
+      <workItem from="1571224072031" duration="13397000" />
+      <workItem from="1571297038595" duration="8599000" />
     </task>
     <task id="LOCAL-00001" summary="Add admin logout &amp; debug admin sidebar">
       <created>1571235511687</created>
@@ -112,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571235511687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add admin logout &amp; debug admin sidebar">
+      <created>1571235551562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571235551562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -131,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add admin logout &amp; debug admin sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add admin logout &amp; debug admin sidebar" />
+    <MESSAGE value="Add Category CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Category CRUD" />
   </component>
 </project>

@@ -933,46 +933,65 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="236" parent="12" name="tbl_admin"/>
-    <column id="237" parent="236" name="adminId">
+    <table id="237" parent="12" name="tbl_category"/>
+    <column id="238" parent="236" name="adminId">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="236" name="adminName">
+    <column id="239" parent="236" name="adminName">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="236" name="adminUser">
+    <column id="240" parent="236" name="adminUser">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="236" name="adminEmail">
+    <column id="241" parent="236" name="adminEmail">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="236" name="adminPass">
+    <column id="242" parent="236" name="adminPass">
       <Position>5</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="236" name="level">
+    <column id="243" parent="236" name="level">
       <Position>6</Position>
       <DataType>tinyint(4)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="243" parent="236" name="PRIMARY">
+    <key id="244" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>adminId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="245" parent="237" name="catId">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="246" parent="237" name="catName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="247" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>catId</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>
