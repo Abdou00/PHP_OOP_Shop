@@ -16,6 +16,10 @@ class Category
         $this->format = new Format();
     }
 
+    /**
+     * @param $catName
+     * @return string
+     */
     public function catInsert($catName)
     {
         $catName = $this->format->validation($catName);
@@ -40,6 +44,9 @@ class Category
         }
     }
 
+    /**
+     * @return bool
+     */
     public function getAllCat()
     {
         $query = "SELECT * FROM tbl_category ORDER BY catId DESC";
@@ -48,6 +55,10 @@ class Category
         return $result;
     }
 
+    /**
+     * @param $id
+     * @return bool
+     */
     public function getCatById($id)
     {
         $query = "SELECT * FROM tbl_category WHERE catId = '$id'";
@@ -56,6 +67,11 @@ class Category
         return $result;
     }
 
+    /**
+     * @param $catName
+     * @param $id
+     * @return string
+     */
     public function catUpdate($catName, $id)
     {
         $catName = $this->format->validation($catName);
@@ -81,6 +97,10 @@ class Category
         }
     }
 
+    /**
+     * @param $id
+     * @return string
+     */
     public function delCatById($id)
     {
         $id = mysqli_real_escape_string($this->db->link, $id);

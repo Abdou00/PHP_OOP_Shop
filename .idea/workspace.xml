@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8eced1-a5d8-4b83-9812-551d36f40dc5" name="Default Changelist" comment="Add Category CRUD">
-      <change afterPath="$PROJECT_DIR$/admin/catedit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/Category.php" afterDir="false" />
+    <list default="true" id="8f8eced1-a5d8-4b83-9812-551d36f40dc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/brandadd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/brandedit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/brandlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Brand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/04df71fd-9782-495a-bfd5-adf659a56c9f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/04df71fd-9782-495a-bfd5-adf659a56c9f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/catadd.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/catadd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/catlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/catlist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Category.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +48,6 @@
         <item name="MySQL - shop@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="shop: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - shop@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="shop: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="tbl_admin: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -134,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571235551562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Category CRUD">
+      <created>1571307479970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571307479970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
